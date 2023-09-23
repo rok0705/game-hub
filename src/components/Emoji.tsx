@@ -8,19 +8,23 @@ interface Props {
 }
 
 const Emoji = ({ rating }: Props) => {
-  if (rating < 3) return;
-
   const emojiMap: { [key: number]: ImageProps } = {
     3: { src: meh, alt: "meh", boxSize: "25px" },
     4: { src: thumbsup, alt: "recommended", boxSize: "25px" },
     5: { src: bullseye, alt: "exceptional", boxSize: "35px" },
   };
 
-  return (
-    <Stack>
-      <Image {...emojiMap[rating]} marginTop={1} />;
-    </Stack>
-  );
+  if (rating > 3) {
+    return (
+      <>
+        <Stack>
+          <Image {...emojiMap[rating]} marginTop={1} />;
+        </Stack>
+      </>
+    );
+  } else {
+    return null;
+  }
 };
 
 export default Emoji;
