@@ -1,6 +1,9 @@
 # game-hub
 
-Following Game-hub project built by React from https://members.codewithmosh.com/courses/enrolled
-![image](https://github.com/rok0705/game-hub/assets/5758570/1c277aac-e36d-44a8-bb94-09e50bde85b1)
+Built using React + Typescript following Game-hub project course at https://members.codewithmosh.com/courses/
+
+test production URL avaiable : https://game-hub-seven-wheat.vercel.app/
+
+![image](https://github.com/rok0705/game-hub/assets/5758570/98c0c952-9df5-42bb-9b42-da7280c6be78)
 
 
