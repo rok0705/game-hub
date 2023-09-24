@@ -1,6 +1,7 @@
 # game-hub
 
 Game-hub project.
+
 1.React + Typescript
 
 2.API from https://rawg.io/apidocs
