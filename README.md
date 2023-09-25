@@ -1,6 +1,6 @@
 # game-hub
 
-Game-hub project.
+Portfolio: Built Game-hub web app.
 
 1.React + Typescript
 
